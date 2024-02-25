@@ -22,13 +22,7 @@ h1 {
     background-color: #99e5e9;
    
 }
-.my-card {
-    padding-right: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 0 300px;
-    
-}
+
 .list-group-item {
     position: relative;
     display: block;
@@ -51,4 +45,9 @@ h1 {
     background-clip: border-box;
     border: none !important;
     border-radius: 0 !important; 
+    margin: 20px;
+}
+.team-area {
+    display: flex;
+    justify-content: space-between; /* Distribute space between cards */
 }
