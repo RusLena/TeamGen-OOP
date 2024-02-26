@@ -47,7 +47,3 @@ h1 {
     border-radius: 0 !important; 
     margin: 20px;
 }
-.team-area {
-    display: flex;
-    justify-content: space-between; /* Distribute space between cards */
-}
