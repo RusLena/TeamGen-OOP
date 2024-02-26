@@ -6,7 +6,6 @@
 This command-line application is designed to generate an HTML webpage that displays basic information about employees. It prompts the user to enter information about the team manager, engineers, and interns, and then generates an HTML page with their details.
 
 **Table of Contents**
-
     Installation
     Usage
     Credits
@@ -34,4 +33,4 @@ Follow the prompts to enter information about employees. You will need to provid
   This project is licensed under the MIT License. See the LICENSE file for details.
 
 * Github link: https://github.com/RusLena/TeamGen-OOP.git
-* app img: ![alt text](challenge/assets/html-gen.PNG)
+* App img: ![alt text](challenge/assets/html-gen.PNG)
