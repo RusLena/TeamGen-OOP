@@ -15,10 +15,9 @@ This command-line application is designed to generate an HTML webpage that displ
 * Installation
 
 To install and run the application, follow these steps:
-
-    Clone the repository to your local machine.
-    Navigate to the project directory in your terminal.
-    Run npm install to install the necessary dependencies.
+Clone the repository to your local machine.
+Navigate to the project directory in your terminal.
+Run npm install to install the necessary dependencies.
 
 * Usage
 
