@@ -7,6 +7,8 @@ This command-line application is designed to generate an HTML webpage that displ
 
 **Table of Contents**
 
+
+
     Installation
     Usage
     Credits
@@ -15,10 +17,15 @@ This command-line application is designed to generate an HTML webpage that displ
 **Installation**
 
 To install and run the application, follow these steps:
+Clone the repository to your local machine.
+Navigate to the project directory in your terminal.
+Run npm install to install the necessary dependencies.
+
 
     Clone the repository to your local machine.
     Navigate to the project directory in your terminal.
     Run npm install to install the necessary dependencies.
+
 
 **Usage**
 
@@ -35,4 +42,8 @@ Follow the prompts to enter information about employees. You will need to provid
   This project is licensed under the MIT License. See the LICENSE file for details.
 
 * Github link: https://github.com/RusLena/TeamGen-OOP.git
+
 * web app img: ![alt text](challenge/assets/html-gen.PNG)
+
+* App img: ![alt text](challenge/assets/html-gen.PNG)
+
