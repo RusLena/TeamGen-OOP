@@ -82,7 +82,7 @@ inquirer.prompt([
 ]).then(answers => {
   const engineer = new Engineer(answers.name, answers.id, answers.email, answers.github);
   teamMembers.push(engineer);
-  addIntern();
+  
 });
 }
 function addIntern() {
@@ -109,8 +109,35 @@ function addIntern() {
     }
   ]).then(answers => {const intern = new Intern(answers.name, answers.id, answers.email, answers.school);
     teamMembers.push(intern);
-    buildTeam();
-  });
+    inquirer.prompt({
+      name:'addAgain',
+      type:'confirm',
+      message:'Do you want to add  another employee?'
+    }).then(answer => {
+      if(answer.addAgain){
+        //ask if angineer or inter
+        inquirer.prompt({
+          name:'addWhich',
+          type:'list',
+          choices:['Engineer', 'Intern'],
+          message:'Which type of employee you want to add?'
+        }).then(
+          answer =>{
+            if(answer.addWhich =='Engineer'){
+              addEngineer()
+            }else{
+              addIntern()
+            }
+          }
+
+        )
+      }else{
+
+        buildTeam();
+      }
+    })
+ }
+  );
 }
 function buildTeam() {
   // Building the team
